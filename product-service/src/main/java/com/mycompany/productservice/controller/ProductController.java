@@ -1,11 +1,12 @@
 package com.mycompany.productservice.controller;
 
+
+
 import com.mycompany.productservice.dto.request.ProductRequest;
 import com.mycompany.productservice.dto.response.ProductResponse;
 import com.mycompany.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
