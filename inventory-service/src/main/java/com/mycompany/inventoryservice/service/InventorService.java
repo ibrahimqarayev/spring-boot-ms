@@ -8,4 +8,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class InventorService {
     private final InventorRepository inventorRepository;
+
+    public boolean isInStock(String skuCode) {
+
+    }
 }
