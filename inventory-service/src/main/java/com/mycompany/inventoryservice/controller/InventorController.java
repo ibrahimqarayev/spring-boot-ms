@@ -16,4 +16,5 @@ public class InventorController {
     public boolean isInStock(@PathVariable("sku-code") String skuCode) {
         return inventorService.isInStock(skuCode);
     }
+
 }
