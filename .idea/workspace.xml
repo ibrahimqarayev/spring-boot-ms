@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="initial commit" />
+    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/inventory-service" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -75,6 +78,7 @@
       <updated>1676312850112</updated>
       <workItem from="1676312851318" duration="1096000" />
       <workItem from="1676393391969" duration="315000" />
+      <workItem from="1676393718170" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="Added .gitignore">
       <created>1676314303198</created>
@@ -139,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676393619807</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1676393824299</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676393824299</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated">
+      <created>1676393872017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676393872017</updated>
+    </task>
+    <task id="LOCAL-00012" summary="initial commit">
+      <created>1676393881291</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676393881291</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +192,7 @@
     <MESSAGE value="Deleted Test classes" />
     <MESSAGE value="Added dependencies" />
     <MESSAGE value="Added properties" />
+    <MESSAGE value="Updated" />
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
