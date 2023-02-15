@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Inventor {
+public class Inventory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
