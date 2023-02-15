@@ -1,7 +1,7 @@
 package com.mycompany.inventoryservice;
 
-import com.mycompany.inventoryservice.model.Inventor;
-import com.mycompany.inventoryservice.repository.InventorRepository;
+import com.mycompany.inventoryservice.model.Inventory;
+import com.mycompany.inventoryservice.repository.InventoryRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,18 +15,18 @@ public class InventoryServiceApplication {
     }
 
     @Bean
-    public CommandLineRunner loadData(InventorRepository inventorRepository) {
+    public CommandLineRunner loadData(InventoryRepository inventoryRepository) {
         return args -> {
-            Inventor inventor1 = new Inventor();
-            inventor1.setSkuCode("Iphone_13");
-            inventor1.setQuantity(100);
+            Inventory inventory1 = new Inventory();
+            inventory1.setSkuCode("Iphone_13");
+            inventory1.setQuantity(100);
 
-            Inventor inventor2 = new Inventor();
-            inventor2.setSkuCode("Iphone_13 red");
-            inventor2.setQuantity(0);
+            Inventory inventory2 = new Inventory();
+            inventory2.setSkuCode("Iphone_13 red");
+            inventory2.setQuantity(0);
 
-            inventorRepository.save(inventor1);
-            inventorRepository.save(inventor2);
+            inventoryRepository.save(inventory1);
+            inventoryRepository.save(inventory2);
 
         };
     }
