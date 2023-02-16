@@ -1,5 +1,0 @@
-com\mycompany\inventoryservice\model\Inventor.class
-com\mycompany\inventoryservice\repository\InventorRepository.class
-com\mycompany\inventoryservice\service\InventorService.class
-com\mycompany\inventoryservice\controller\InventorController.class
-com\mycompany\inventoryservice\InventoryServiceApplication.class

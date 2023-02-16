@@ -1,9 +1,0 @@
-com\mycompany\orderservice\service\OrderService.class
-com\mycompany\orderservice\controlller\OrderController.class
-com\mycompany\orderservice\converter\OrderConverter.class
-com\mycompany\orderservice\OrderServiceApplication.class
-com\mycompany\orderservice\repository\OrderRepository.class
-com\mycompany\orderservice\dto\request\OrderRequest.class
-com\mycompany\orderservice\dto\OrderLineItemsDto.class
-com\mycompany\orderservice\model\Order.class
-com\mycompany\orderservice\model\OrderLineItems.class
