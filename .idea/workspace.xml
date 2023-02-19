@@ -4,34 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/mycompany/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added DiscoveryServer">
+      <change afterPath="$PROJECT_DIR$/api-gateway/api-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/inventory-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/inventory-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/mycompany/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/mycompany/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/mycompany/orderservice/dto/OrderLineItemsDto.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/product-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/product-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/mycompany/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/mycompany/productservice/ProductServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/mycompany/productservice/dto/request/ProductRequest$ProductRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/mycompany/productservice/dto/response/ProductResponse$ProductResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/mycompany/productservice/model/Product$ProductBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/mycompany/productservice/repository/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/mycompany/productservice/service/ProductService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +71,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-server" />
       <extension name="coverage">
@@ -142,41 +127,9 @@
       <workItem from="1676479873740" duration="6798000" />
       <workItem from="1676575729132" duration="1320000" />
       <workItem from="1676628917435" duration="6414000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added .gitignore">
-      <created>1676314303198</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1676314303198</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added Dependencies">
-      <created>1676314491281</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1676314491281</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added application.yaml">
-      <created>1676314529771</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1676314529771</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Deleted Test classes">
-      <created>1676314550692</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676314550692</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial commit">
-      <created>1676314639299</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676314639299</updated>
+      <workItem from="1676747320182" duration="2238000" />
+      <workItem from="1676803542585" duration="2720000" />
+      <workItem from="1676825565972" duration="364000" />
     </task>
     <task id="LOCAL-00006" summary="Added dependencies">
       <created>1676393503419</created>
@@ -451,7 +404,77 @@
       <option name="project" value="LOCAL" />
       <updated>1676630297763</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Added eureka client dependency">
+      <created>1676747408262</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747408262</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added EnableEurekaClient annotation">
+      <created>1676747484675</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747484675</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Added ProductRepository">
+      <created>1676747533654</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747533654</updated>
+    </task>
+    <task id="LOCAL-00048" summary="initial commit">
+      <created>1676747548173</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747548173</updated>
+    </task>
+    <task id="LOCAL-00049" summary="initial commit">
+      <created>1676747557161</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747557161</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Added ProductService">
+      <created>1676747580683</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747580683</updated>
+    </task>
+    <task id="LOCAL-00051" summary="initial commit">
+      <created>1676747605187</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747605187</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added OrderLineItemsDto">
+      <created>1676747708350</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747708350</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Added application.yaml">
+      <created>1676747747957</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747747957</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Added DiscoveryServer">
+      <created>1676747782348</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1676747782348</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,13 +496,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Deleted Test classes" />
-    <MESSAGE value="Added dependencies" />
-    <MESSAGE value="Added properties" />
-    <MESSAGE value="Updated" />
-    <MESSAGE value="Added WebClient Bean" />
-    <MESSAGE value="Added InventoryResponse" />
-    <MESSAGE value="Added Webflux dependency" />
     <MESSAGE value="Renamed" />
     <MESSAGE value="Added Order" />
     <MESSAGE value="Added OrderController" />
@@ -497,7 +513,14 @@
     <MESSAGE value="Added ProductConverter" />
     <MESSAGE value="Added ProductRequest" />
     <MESSAGE value="Added ProductResponse" />
+    <MESSAGE value="Added eureka client dependency" />
+    <MESSAGE value="Added EnableEurekaClient annotation" />
+    <MESSAGE value="Added ProductRepository" />
+    <MESSAGE value="Added ProductService" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Added OrderLineItemsDto" />
+    <MESSAGE value="Added application.yaml" />
+    <MESSAGE value="Added DiscoveryServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DiscoveryServer" />
   </component>
 </project>
