@@ -12,7 +12,7 @@ public class OrderConverter {
         orderLineItems.setId(orderLineItemsDto.getId());
         orderLineItems.setSkuCode(orderLineItemsDto.getSkuCode());
         orderLineItems.setPrice(orderLineItemsDto.getPrice());
-        orderLineItems.setQuantity(orderLineItems.getQuantity());
+        orderLineItems.setQuantity(orderLineItemsDto.getQuantity());
         return orderLineItems;
     }
 
