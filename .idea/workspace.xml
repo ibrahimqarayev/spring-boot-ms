@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added oauth2-resource-server">
+    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added actuator dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/api-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/discovery-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/discovery-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
@@ -144,63 +146,9 @@
       <workItem from="1677007837521" duration="309000" />
       <workItem from="1677041858958" duration="4541000" />
       <workItem from="1677051052506" duration="2770000" />
-      <workItem from="1677090886381" duration="1765000" />
-    </task>
-    <task id="LOCAL-00026" summary="initial commit">
-      <created>1676576196884</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576196884</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Added Order">
-      <created>1676576215382</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576215382</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added OrderController">
-      <created>1676576225410</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576225410</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Added OrderConverter">
-      <created>1676576240340</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576240340</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Added OrderRequest">
-      <created>1676576253650</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576253650</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Added OrderService">
-      <created>1676576262690</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576262690</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Added Inventor">
-      <created>1676576307241</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576307241</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Added Inventory">
-      <created>1676576320859</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576320859</updated>
+      <workItem from="1677090886381" duration="3417000" />
+      <workItem from="1677149011346" duration="1501000" />
+      <workItem from="1677180752864" duration="961000" />
     </task>
     <task id="LOCAL-00034" summary="Added InventoryRepository">
       <created>1676576452336</created>
@@ -489,7 +437,63 @@
       <option name="project" value="LOCAL" />
       <updated>1677092184056</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Added security dependency">
+      <created>1677092682384</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1677092682384</updated>
+    </task>
+    <task id="LOCAL-00076" summary="initial commit">
+      <created>1677094897194</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1677094897194</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Added SecurityFilterChain Bean">
+      <created>1677095181391</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1677095181391</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Added security dependency">
+      <created>1677095343389</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1677095343389</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Created SecurityConfig">
+      <created>1677095456487</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1677095456487</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Override some WebSecurityConfigurerAdapter methods">
+      <created>1677181298552</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1677181298552</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Override some WebSecurityConfigurerAdapter methods">
+      <created>1677181420612</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1677181420612</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Added actuator dependency">
+      <created>1677181684545</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1677181684545</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,10 +515,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Added ProductRequest" />
-    <MESSAGE value="Added ProductResponse" />
-    <MESSAGE value="Added eureka client dependency" />
-    <MESSAGE value="Added ProductRepository" />
     <MESSAGE value="Added ProductService" />
     <MESSAGE value="Added OrderLineItemsDto" />
     <MESSAGE value="Added DiscoveryServer" />
@@ -526,16 +526,20 @@
     <MESSAGE value="Added ApiGatewayApplication" />
     <MESSAGE value="Added eureka-client dependency" />
     <MESSAGE value="Added EnableEurekaClient annotation" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Added application.yaml" />
     <MESSAGE value="Added logging parameters" />
     <MESSAGE value="Added Product Service Route" />
     <MESSAGE value="Added Order Service Route" />
     <MESSAGE value="Added Discovery Server Route" />
-    <MESSAGE value="Created SecurityConfig" />
     <MESSAGE value="Fixed OrderConverter" />
     <MESSAGE value="Added Discovery Server Static Route" />
     <MESSAGE value="Added oauth2-resource-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added oauth2-resource-server" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Added SecurityFilterChain Bean" />
+    <MESSAGE value="Added security dependency" />
+    <MESSAGE value="Created SecurityConfig" />
+    <MESSAGE value="Override some WebSecurityConfigurerAdapter methods" />
+    <MESSAGE value="Added actuator dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added actuator dependency" />
   </component>
 </project>
