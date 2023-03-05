@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added actuator dependency">
+    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added Resilience4J Properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/api-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/discovery-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/discovery-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/controlller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/controlller/OrderController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2LhAH98dNVVvytq3PAq3gvRK9Oe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -145,28 +151,7 @@
       <workItem from="1677090886381" duration="3417000" />
       <workItem from="1677149011346" duration="1501000" />
       <workItem from="1677180752864" duration="961000" />
-      <workItem from="1678039727502" duration="1532000" />
-    </task>
-    <task id="LOCAL-00035" summary="Added InventoryServiceApplication">
-      <created>1676629935485</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1676629935485</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Added OrderLineItems">
-      <created>1676629951224</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1676629951224</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Added OrderRepository">
-      <created>1676630037165</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1676630037165</updated>
+      <workItem from="1678039727502" duration="2172000" />
     </task>
     <task id="LOCAL-00038" summary="Added Product">
       <created>1676630056667</created>
@@ -490,7 +475,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678041793726</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Added Circuit Breaker properties">
+      <created>1678042654862</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1678042654863</updated>
+    </task>
+    <task id="LOCAL-00085" summary="initial commit">
+      <created>1678042672092</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1678042672092</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Added Resilience4J Properties">
+      <created>1678043005844</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1678043005844</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,8 +518,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Added ProductService" />
-    <MESSAGE value="Added OrderLineItemsDto" />
     <MESSAGE value="Added DiscoveryServer" />
     <MESSAGE value="Injected WebClient" />
     <MESSAGE value="Added LoadBalanced" />
@@ -531,12 +535,14 @@
     <MESSAGE value="Fixed OrderConverter" />
     <MESSAGE value="Added Discovery Server Static Route" />
     <MESSAGE value="Added oauth2-resource-server" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Added SecurityFilterChain Bean" />
     <MESSAGE value="Added security dependency" />
     <MESSAGE value="Created SecurityConfig" />
     <MESSAGE value="Override some WebSecurityConfigurerAdapter methods" />
     <MESSAGE value="Added actuator dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added actuator dependency" />
+    <MESSAGE value="Added Circuit Breaker properties" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Added Resilience4J Properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Resilience4J Properties" />
   </component>
 </project>
