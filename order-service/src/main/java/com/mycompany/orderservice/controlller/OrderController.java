@@ -4,9 +4,12 @@ import com.mycompany.orderservice.dto.request.OrderRequest;
 import com.mycompany.orderservice.service.OrderService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.timelimiter.annotation.TimeLimiter;
+import io.netty.util.concurrent.CompleteFuture;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.concurrent.CompletableFuture;
 
 @RestController
 @RequiredArgsConstructor
@@ -18,13 +21,13 @@ public class OrderController {
     @ResponseStatus(HttpStatus.CREATED)
     @CircuitBreaker(name = "inventory", fallbackMethod = "fallbackMethod")
     @TimeLimiter(name = "inventory")
-    public String placeOrder(@RequestBody OrderRequest orderRequest) {
+    public CompletableFuture<String> placeOrder(@RequestBody OrderRequest orderRequest) {
         orderService.placeOrder(orderRequest);
-        return "Order Placed Successfully !";
+        return CompletableFuture.supplyAsync(() -> "Order Placed Successfully !");
     }
 
-    public String fallbackMethod(OrderRequest orderRequest, RuntimeException exception) {
-        return "Something went wrong !";
+    public CompletableFuture<String> fallbackMethod(OrderRequest orderRequest, RuntimeException exception) {
+        return CompletableFuture.supplyAsync(() -> "Something went wrong !");
     }
 
 }
