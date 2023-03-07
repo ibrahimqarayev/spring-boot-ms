@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added Resilience4J Timeout Properties">
+    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added sleuth dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/controlller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/mycompany/orderservice/controlller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/api-gateway.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,70 +152,8 @@
       <workItem from="1677149011346" duration="1501000" />
       <workItem from="1677180752864" duration="961000" />
       <workItem from="1678039727502" duration="2234000" />
-      <workItem from="1678131031882" duration="258000" />
-    </task>
-    <task id="LOCAL-00041" summary="Added ProductRequest">
-      <created>1676630242107</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1676630242107</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Added ProductResponse">
-      <created>1676630251348</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1676630251348</updated>
-    </task>
-    <task id="LOCAL-00043" summary="initial commit">
-      <created>1676630289511</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1676630289511</updated>
-    </task>
-    <task id="LOCAL-00044" summary="initial commit">
-      <created>1676630297763</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1676630297763</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Added eureka client dependency">
-      <created>1676747408262</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1676747408262</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Added EnableEurekaClient annotation">
-      <created>1676747484675</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1676747484675</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Added ProductRepository">
-      <created>1676747533654</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1676747533654</updated>
-    </task>
-    <task id="LOCAL-00048" summary="initial commit">
-      <created>1676747548173</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1676747548173</updated>
-    </task>
-    <task id="LOCAL-00049" summary="initial commit">
-      <created>1676747557161</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1676747557161</updated>
+      <workItem from="1678131031882" duration="1374000" />
+      <workItem from="1678167334310" duration="187000" />
     </task>
     <task id="LOCAL-00050" summary="Added ProductService">
       <created>1676747580683</created>
@@ -497,7 +435,70 @@
       <option name="project" value="LOCAL" />
       <updated>1678131260933</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Added TimeLimiter annotation">
+      <created>1678131320247</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131320247</updated>
+    </task>
+    <task id="LOCAL-00091" summary="initial commit">
+      <created>1678131331970</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131331970</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Fixed">
+      <created>1678131708015</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131708015</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Fixed">
+      <created>1678131715564</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131715564</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Added Slf4j">
+      <created>1678131858085</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131858085</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Fixed">
+      <created>1678131909264</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131909264</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Added Resilience4J Retry Properties">
+      <created>1678132114170</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1678132114170</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Fixed">
+      <created>1678132182879</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1678132182879</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Added sleuth dependency">
+      <created>1678132358117</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1678132358117</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,11 +520,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Added LoadBalanced" />
-    <MESSAGE value="Added Gateway" />
-    <MESSAGE value="Added api-gateway module" />
-    <MESSAGE value="Created api-gateway module" />
-    <MESSAGE value="Added ApiGatewayApplication" />
     <MESSAGE value="Added eureka-client dependency" />
     <MESSAGE value="Added EnableEurekaClient annotation" />
     <MESSAGE value="Added application.yaml" />
@@ -542,8 +538,13 @@
     <MESSAGE value="Added Circuit Breaker properties" />
     <MESSAGE value="Added Resilience4J Properties" />
     <MESSAGE value="Added CircuitBreaker annotation and fallbackMethod" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Added Resilience4J Timeout Properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Resilience4J Timeout Properties" />
+    <MESSAGE value="Added TimeLimiter annotation" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Added Slf4j" />
+    <MESSAGE value="Added Resilience4J Retry Properties" />
+    <MESSAGE value="Fixed" />
+    <MESSAGE value="Added sleuth dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sleuth dependency" />
   </component>
 </project>
