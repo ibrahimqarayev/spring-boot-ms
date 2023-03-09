@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added zipkin dependency">
+    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added zipkin properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/api-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/discovery-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/discovery-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/inventory-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/inventory-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/product-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/product-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,42 +156,8 @@
       <workItem from="1678167334310" duration="187000" />
       <workItem from="1678217146229" duration="712000" />
       <workItem from="1678282856393" duration="2000" />
-      <workItem from="1678298867365" duration="632000" />
-    </task>
-    <task id="LOCAL-00061" summary="Added EnableEurekaClient annotation">
-      <created>1676829436923</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1676829436923</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Added application.yaml">
-      <created>1676829782648</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1676829782652</updated>
-    </task>
-    <task id="LOCAL-00063" summary="initial commit">
-      <created>1676829792659</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1676829792659</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Added application.yaml">
-      <created>1676829809286</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1676829809286</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Added application.yaml">
-      <created>1676829827702</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1676829827702</updated>
+      <workItem from="1678298867365" duration="1012000" />
+      <workItem from="1678303140271" duration="2000" />
     </task>
     <task id="LOCAL-00066" summary="Added logging parameters">
       <created>1676977309741</created>
@@ -506,7 +467,42 @@
       <option name="project" value="LOCAL" />
       <updated>1678299036903</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Added zipkin properties">
+      <created>1678299519432</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1678299519433</updated>
+    </task>
+    <task id="LOCAL-00111" summary="initial commit">
+      <created>1678299532696</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1678299532696</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Added zipkin properties">
+      <created>1678299859527</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1678299859527</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Added zipkin properties">
+      <created>1678299863286</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1678299863286</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Added zipkin properties">
+      <created>1678299867012</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1678299867012</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +524,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Added logging parameters" />
     <MESSAGE value="Added Product Service Route" />
     <MESSAGE value="Added Order Service Route" />
     <MESSAGE value="Added Discovery Server Route" />
@@ -549,10 +544,11 @@
     <MESSAGE value="Added Resilience4J Retry Properties" />
     <MESSAGE value="Fixed" />
     <MESSAGE value="Added sleuth dependency" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Added Zipkin dependency" />
     <MESSAGE value="Added sleuth and zipkin dependency" />
     <MESSAGE value="Added zipkin dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added zipkin dependency" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Added zipkin properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added zipkin properties" />
   </component>
 </project>
