@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Added zipkin properties">
+    <list default="true" id="084c63f6-8f61-48e3-980b-55c74e0aab83" name="Changes" comment="Created data.sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/inventory-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-gateway/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -55,9 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\pworkprojects\spring-boot-ms\api-gateway\src\main\resources" />
+      <recent name="C:\Users\Lenovo\Documents\pworkprojects\spring-boot-ms\order-service\src\main\resources" />
+      <recent name="C:\Users\Lenovo\Documents\pworkprojects\spring-boot-ms\api-gateway" />
       <recent name="C:\Users\Lenovo\Documents\pworkprojects\microservices-new\inventory-service" />
       <recent name="C:\Users\Lenovo\Documents\pworkprojects\microservices-new\order-service" />
-      <recent name="C:\Users\Lenovo\Documents\pworkprojects\microservices-new\product-service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mycompany.orderservice.dto.reponse" />
@@ -158,62 +160,7 @@
       <workItem from="1678282856393" duration="2000" />
       <workItem from="1678298867365" duration="1012000" />
       <workItem from="1678303140271" duration="2000" />
-    </task>
-    <task id="LOCAL-00066" summary="Added logging parameters">
-      <created>1676977309741</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1676977309741</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Added Product Service Route">
-      <created>1676977760725</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1676977760725</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Added Order Service Route">
-      <created>1676977781372</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1676977781372</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Added Discovery Server Route">
-      <created>1677007958615</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1677007958615</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Added Discovery Server Route">
-      <created>1677008020007</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1677008020007</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Created SecurityConfig">
-      <created>1677008094511</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1677008094511</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Fixed OrderConverter">
-      <created>1677053179870</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1677053179870</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Added Discovery Server Static Route">
-      <created>1677053205182</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1677053205182</updated>
+      <workItem from="1678389861031" duration="1019000" />
     </task>
     <task id="LOCAL-00074" summary="Added oauth2-resource-server">
       <created>1677092184056</created>
@@ -502,7 +449,63 @@
       <option name="project" value="LOCAL" />
       <updated>1678299867012</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Created docker-compose.yml">
+      <created>1678390123688</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390123688</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Added zipkin properties">
+      <created>1678390146902</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390146910</updated>
+    </task>
+    <task id="LOCAL-00117" summary="initial commit">
+      <created>1678390155726</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390155726</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Created Dockerfile">
+      <created>1678390420362</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390420362</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Created application-docker.yaml">
+      <created>1678390624660</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390624660</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Created application-docker.yaml">
+      <created>1678390667321</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390667321</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Created application-docker.yaml">
+      <created>1678390732081</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390732081</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Created data.sql">
+      <created>1678390789991</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390789991</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,10 +527,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Added Product Service Route" />
-    <MESSAGE value="Added Order Service Route" />
-    <MESSAGE value="Added Discovery Server Route" />
-    <MESSAGE value="Fixed OrderConverter" />
     <MESSAGE value="Added Discovery Server Static Route" />
     <MESSAGE value="Added oauth2-resource-server" />
     <MESSAGE value="Added SecurityFilterChain Bean" />
@@ -547,8 +546,12 @@
     <MESSAGE value="Added Zipkin dependency" />
     <MESSAGE value="Added sleuth and zipkin dependency" />
     <MESSAGE value="Added zipkin dependency" />
-    <MESSAGE value="initial commit" />
+    <MESSAGE value="Created docker-compose.yml" />
     <MESSAGE value="Added zipkin properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added zipkin properties" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Created Dockerfile" />
+    <MESSAGE value="Created application-docker.yaml" />
+    <MESSAGE value="Created data.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created data.sql" />
   </component>
 </project>
